@@ -1,0 +1,35 @@
+{
+  "name": "assets-storage",
+  "version": "1.0.0",
+  "description": "Assets storage",
+  "repository": "https://github.com/justgook/assets-storage.git",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp watch",
+    "test": "gulp test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "immutable": "^3.7.4",
+    "react": "^0.13.3"
+  },
+  "devDependencies": {
+    "blanket": "^1.1.7",
+    "browser-sync": "^2.8.2",
+    "browserify": "^11.0.1",
+    "coffee-reactify": "^4.0.0",
+    "coffee-script": "^1.9.3",
+    "cucumber": "^0.5.2",
+    "dookie-css": "^0.1.11",
+    "gulp": "^3.9.0",
+    "gulp-stylus": "^2.0.6",
+    "gulp-util": "^3.0.6",
+    "rupture": "^0.6.1",
+    "stylus": "^0.52.0",
+    "uglifyify": "^3.0.1",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.3.1",
+    "zombie": "^4.1.0"
+  }
+}
