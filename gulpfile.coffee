@@ -91,6 +91,7 @@ gulp.task "watch", ["bundle", "bundle-vendor", "copy", "stylus"], (next)->
     open: false
   #next()
 
+gulp.task "deploy", ["bundle", "bundle-vendor", "copy", "stylus"]
 #SWitch to IO.js https://gist.github.com/phelma/ce4eeeedb8fb9a9e8e63
 
 #TODO move to test file
